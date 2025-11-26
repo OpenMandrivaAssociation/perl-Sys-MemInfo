@@ -10,6 +10,7 @@ Source:		https://cpan.org/modules/by-module/Sys/%{module}-%{version}.tar.gz
 License:	Perl (Artistic or GPL)
 Group:		Development/Perl
 BuildRequires:	perl
+BuildRequires:	perl(ExtUtils::MakeMaker)
 
 %description
 Perl module for querying free and used physical memory
