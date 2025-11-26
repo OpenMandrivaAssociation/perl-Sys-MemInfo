@@ -12,6 +12,7 @@ Group:		Development/Perl
 BuildRequires:	perl
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
+BuildRequires:	perl(Test::More)
 
 %description
 Perl module for querying free and used physical memory
